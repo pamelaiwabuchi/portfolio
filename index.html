@@ -24,31 +24,38 @@
 </style>
 
 </head>
-<body class="bg-palepink font-elms text-xl">
+<body class="font-elms text-xl">
     <header>
-        <nav class="flex justify-between md:text-[22px] px-4 md:px-30 py-4 bg-verydarkblue">
+        <nav class="bg-blood-red text-sand-dune flex justify-between md:text-[22px] px-4 md:px-30 py-4">
             
             <a href="#Home">Home</a>
             <a href="#projetos">Projetos</a>
             <a href="#sobre">Sobre</a>
-            <a href="#blog">Blog</a>
-            <a href="#contato">Contato</a>             
+            <a href="#notes">Tech Notes</a>
+            <a href="#linguagens">Linguagens e Tecnologias</a>    
+            <a href="#contato">Contato</a>   
         </nav>   
         </header>
     <main>
-        <div class=" max-h-[60vh] overflow-hidden">
-        <h1 class="text-center md:text-8xl text-6xl m-4">Pamela Iwabuchi</h1>
+        
+        <h1 class="text-blood-red text-center md:text-8xl text-6xl m-35 md:m-60 ">Pamela Iwabuchi.</h1>
 
-        </div>
+        
 <!--Sobre-->                   
-        <section id="sobre" class=" text-center ">
-            <h2 class=" p-4 bg-sand-dune">Sobre</h2>
-            <div class="flex px-8 md:px-20 bg-sand-dune">
+        <section id="sobre" class="">
+            <div class="m-10 bg-sand-dune md:flex md:flex-nowrap rounded-md">
                 
-                <img class="transition delay-150 duration-300 ease-in-out min-w-24 max-h-24 md:min-w-40 md:max-h-40 rounded-full object-cover" src="WhatsApp Image 2025-12-02 at 12.04.13.jpeg" alt="foto de perfil">
-                <div class="flex flex-col py-4 px-4 ">
-                    <p class="text-[12px] md:text-[18px] ">Olá! Sou Pamela Iwabuchi, estudante de Desenvolvimento de Software Multiplataforma pela FATEC - SJC.</p>
-                    <p class="text-[12px] md:text-[18px]">Tenho interesse em cybersegurança e desenvolvimento de sistemas. Gosto de resolver problemas e entender o porquê das coisas. Possuo perfil anaílitico e estou sempre disposta a aprender!</p>                
+                <img class="block md:flex-col md:justify-center mx-auto min-w-80 max-h-80 md:min-w-120 md:max-h-120 rounded-full p-10 object-cover" src="WhatsApp Image 2025-12-02 at 12.04.13.jpeg" alt="foto de perfil">
+                <div class="p-10 text-justify">
+                    <p class="">Graduanda em Desenvolvimento de Software Multiplataforma pela FATEC - SJC.
+                        Tenho interesse em cybersecurity e desenvolvimento de sistemas, aprendendo constantemente
+                        sobre desenvolvimento web, banco de dados, python e lógica de programação.
+                    </p>
+                    <p class="mt-4">
+                       Ao longo dos anos venho aprimorando a habiliade de resolução de problemas, comunicação, trabalho em equipe e raciocínio lógico.
+                       Tenho pensamento crítico e gosto de estar sempre aprendendo e entendendo como as coisas funcionam.
+                       Conheça mais sobre mim e meus projetos aqui e não deixe de navegar pelo meu Tech-notes!
+                    </p>                
                 </div>
             </div>    
 <!--Formação-->     <!--Graduação-->               
@@ -63,8 +70,8 @@
                     <!--Participação-->
                     <div class="flex items-center bg-dusty-taupe text-white">                        
                         <div class="m-8">
-                        <p class="pb-4 text-justify">Participação na FLL (FIRST LEGO League) com tema "Trash Trek" na equipe de desenvolvimento de projeto relacionado à reciclagem. </p>
-                        <p class="text-justify">4º Science & Business Connection - PIT</p>
+                        <p class="text-justify pb-4">4º Science & Business Connection - PIT</p>
+                        <p class="text-justify">AWS Woman in Cloud 2026</p>
                         </div>
                         <div class="mr-4 md:mr-6"><p>Participação em Eventos</p></div>
                     </div>
@@ -72,76 +79,157 @@
                     <!--Voluntariado-->
                     <div class="flex items-center bg-sand-dune text-mauve-bark">
                         <div class="ml-4 md:m-6""><p>Trabalho Voluntário</p></div>
-                        <div class="m-8 text-justify"><p>Projeto STRIKE - Visitas em presídios, escolas e praças para conscientização acerca do uso de drogas e violência sexual para crianças e adolescentes. 2016-2017</p></div>
+                        <div class="m-8 text-justify">
+                            <p class="pb-4">Projeto STRIKE - Visitas em presídios, escolas e praças para conscientização acerca do uso de drogas e violência sexual para crianças e adolescentes. 2016-2017</p>
+                            <p>Voluntária na cerimônia de premiação da 21ª Olimpíada Brasileira de Matemática das escolas públicas - OBMEP - 2026</p>
+                        </div>
                     </div>
+                    <!--Projetos-->
+                    
+                        <h2 id="projetos" class="text-blood-red text-center text-6xl ml-6 mr-6 m-20">Projetos</h2>
+                        <div class="rounded-md m-10 bg-blood-red text-sand-dune">
+                        <div class=" text-justify p-8">
+                            <p class="pb-4 text-justify">Clube de robótica FUCAPI (Fundação Centro de Análise, Pesquisa e Inovação Tecnológica)</p>
+                            <p class="text-justify">Torneio de Robótica FIRST LEGO® LEAGUE - Trash Trek. Atuei na equipe de desenvolvimento de projeto de Reverse Vending Machine (RVM), com foco no incentivo à reciclagem. O protótipo reconhecia a entrada e a quantidade de latinhas e retornava créditos para o usuário. 
+                                Nossa equipe também desenvolveu robôs para o torneio de robótica, dentre eles o robô que realiza a montagem do cubo mágico em menos de 1 minuto! 
+                            </p>
+                            <p>A Rede Globo visitou nosso projeto e nos intrevistou para contarmos mais detalhes:</p>
+                        </div>
+                    
+                    
+                    <div class="bg-blood-red m-10">
+                        <div class="flex justify-center">
+                        <a target="_blank" href="https://globoplay.globo.com/v/4569272/">
+                            <img class="md:max-h-130 max-h-100 pb-10" src="images/robotica-video.png" alt="Clube de robótica fucapi cria robo capaz de montar cubo mágico">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+
                 
 <!--Certificados-->
-                <h2 class="text-center m-6 text-6xl" >Certificados</h2>
-                <div class="font-elms grid md:grid-cols-2 m-8">            
+                <h2 class="text-center text-6xl ml-6 mr-6 m-20 text-blood-red" >Certificados</h2>
+                <div class="text-center font-elms grid gap-4 md:m-15 md:grid-cols-2 m-14">            
                     
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Python Essentials 1 - CISCO</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-lg text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Python: formação Básica - LINKEDIN</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Introduction to Cybersecurity - CISCO</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Fundamentos para Desenvolvimento de Software - Microsoft</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Fundamentos para uma carreira em Cybersegurança - Microsoft</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Noções básicas do Microsoft Azure AI: Introdução às Workloads e Aprendizado de máquina no Azure</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Certificado EF SET Inglês 69/100 (C1 Proeficiência Eficaz)</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>Iniciação Científica no Instituto Nacional de Pesquisas da Amazônia (INPA) - Bolsista FAPEAM</p>
                     </div>
-                    <div class="bg-blood-red md:m-4 m-2 p-4 text-white rounded-md">
+                    <div class="bg-blood-red p-4 text-white rounded-md">
                         <p>AWS Academy Cloud Foundations - Em Andamento</p>
                     </div>
-<!--Tecnologias-->
-                    <section >
-                    <h2 class="text-center text-6xl m-6"" >Tecnologias</h2>  
-                    </section> 
-                </div>  
-                <div class="">
-                    <a id="artigo-1" href="https://www.scielo.br/j/qn/a/G5wdG4PhK4qdyQczQjytN3h/?format=pdf&lang=en"></a>
-                    <a id="artigo-2" href="https://d1wqtxts1xzle7.cloudfront.net/114114013/813-libre.pdf?1714780009=&response-content-disposition=inline%3B+filename%3DAn_in_vitro_study_of_the_antileishmanial.pdf&Expires=1777293350&Signature=OMAMZxz80MPvxOHBbZx27YLVXDwuZ7eTN2ofXenoZyPqkP6OQkW0MuKJTaYnT4OPxzYxXUdGfwrLNYjScAQNRG4Faaw1Tsm0WL4ZClJjkX2xXhLFZ7et~kHKFDCfgoRME~4diFbA4Uc8JWAaC~YEOTDCu6q8u-teNjdJsCQZ~oGV2JQ2~sq7na8bbQOcKc21S86W4rDaGUTbZDLx2-HvXZ7RI2RqbCsS7VC5Ev6Pgut8AYGUaaqsAKIs~qfMQoA~4PXt7MRvlYk-o6A9E~ZPQa~EEvBNN5caC1BowpUP0NwIoQf3LG0mYbmZsNkZhMR7RHYlS8AAvfo1xZX5A9z3LQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"></a>
-                    <a id="artigo-3" href="https://www.scielo.br/j/aa/a/bkdmpzPs34BKSMQ3Wfkghvq/?lang=en&format=pdf"></a>
-                    <a id="artigo-4" href="https://static.even3.com/anais/445437.pdf?v=639082668040644917"></a>
                 </div>
-                <video>
-                    <source class="h-30 w-40" src="https://globoplay.globo.com/v/4569272/" type="video/mp4">
-                    </video>
+<!--Tecnologias-->
+                    
+                    <h2 class="text-center text-6xl ml-6 mr-6 m-20 text-blood-red" id="linguagens" >Linguagens e Tecnologias</h2>
+                    <div class="m-8 flex flex-wrap justify-center gap-20 md:m-15">
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+                    </div>  
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hugo/hugo-original-wordmark.svg" />
+                    </div>
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original-wordmark.svg" />
+                    </div>
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+                    </div>
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" />
+                    </div>
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+                    </div>
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" />
+                    </div>
+                    <div class="w-24 h-24 md:w-36">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                    </div>
+                    </div>
+ 
+                  
+                <h2 class="text-blood-red text-center text-6xl ml-6 mr-6 mt-20 md:mt-35 mb-20">Artigos Publicados</h2>    
+                <div class="m-14 md:m-15 gap-4 md:gap-12 flex-wrap flex md:flex-nowrap text-justify">
+                     <div>  
+                        <a target="blank" id="artigo-1" href="https://d1wqtxts1xzle7.cloudfront.net/114114013/813-libre.pdf?1714780009=&response-content-disposition=inline%3B+filename%3DAn_in_vitro_study_of_the_antileishmanial.pdf&Expires=1777293350&Signature=OMAMZxz80MPvxOHBbZx27YLVXDwuZ7eTN2ofXenoZyPqkP6OQkW0MuKJTaYnT4OPxzYxXUdGfwrLNYjScAQNRG4Faaw1Tsm0WL4ZClJjkX2xXhLFZ7et~kHKFDCfgoRME~4diFbA4Uc8JWAaC~YEOTDCu6q8u-teNjdJsCQZ~oGV2JQ2~sq7na8bbQOcKc21S86W4rDaGUTbZDLx2-HvXZ7RI2RqbCsS7VC5Ev6Pgut8AYGUaaqsAKIs~qfMQoA~4PXt7MRvlYk-o6A9E~ZPQa~EEvBNN5caC1BowpUP0NwIoQf3LG0mYbmZsNkZhMR7RHYlS8AAvfo1xZX5A9z3LQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA">
+                        <strong>IWABUCHI, P. E. T.</strong>, da Paz Lima, M., Nogueira, P. A. D., Franco, A. M. R., Hanada, R. S. B., dos Santos, R. P., & Jensen, B. B. (2023). <strong> AN IN VITRO STUDY OF THE ANTILEISHMANIAL AND CYTOTOXIC ACTIVITY OF EXTRACTS OF SCLEROLOBIUM PANICULATUM (FABACEAE).</strong> Peer Review, 5(23), 495-507.</a>                    </div>
+
+                    <div>
+                        <a target="blank" id="artigo-2" href="https://doi.org/10.21577/0100-4042.20250213">
+                        Nogueira, P. A. D., dos Santos, H. C., do Nascimento, C. C., Jensen, B. B., Franco, A. M. R., <strong>IWABUCHI, P. E. T.</strong>, & da Paz Lima, M. (2025). <strong>SUSTAINABLE OBTAINING OF ANTILEISHMANIAL COMPOUNDS FROM CEDRELA ODORATA L. DEMOLITION WOOD AS AN EXAMPLE OF THE CIRCULAR BIOECONOMY.</strong> Química Nova, 48(10), e-20250213.</a>                    </div>
+                   
+                    <div>
+                        <a target="blank" id="artigo-4" href="https://static.even3.com/anais/445437.pdf?v=639082668040644917">
+                            Nogueira, P. A. D., <strong>IWABUCHI, P. E. T. </strong>, Lima, M. P., Santos, H. C., Jensen, B. B., Franco, A. M. R., & Nascimento, C. C. (2021). <strong>AVALIAÇÃO DA ATIVIDADE ANTILEISHMANIA IN VITRO DO EXTRATO METANÓLICO DE CEDRELA ODORATA L.</strong> 3º Simpósio Regional Norte de Farmacognosia.
+                        </a>
+                    </div> 
+
+                </div>
+                
             
         </section>
-<!--Projetos-->
-        <section id="projetos" class="text-center m-6" >
-            <h2 class="text-6xl m-6">Projetos</h2>
-            <a  href="https://design-web-coral.vercel.app/">
-            <img class="h-40 mb-10 rounded-xl flex justify-center items-center  " src="site_unitev.png" alt="print da tela inicial do site UniTeV">
-            </a>
-            
-        </section>
+
 <!--Blog-->        
-        <section id="blog" class=" text-center">
-            <h2 class="text-6xl">Blog</h2>
+        <section id="notes" class=" text-center">
+            <h2 class="text-center text-6xl ml-6 mr-6 mt-20 md:mt-35 mb-20">Tech Notes</h2>
             <p>relato sobre evento</p>
             </section>
 <!--Contato-->        
-        <section id="contato" class="text-center">
-            <h2 class="text-6xl">Contato</h2>
-            <div class="flex justify-center items-center">
-            <img class="md:h-30 h-15" src="images/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.png" alt="">
-            <img class="md:h-30 h-15" src="images/images.jpg" alt="">
+<h2 class="text-center text-6xl ml-6 mr-6 mt-20 md:mt-35 mb-20">Contato</h2>        
+<section id="contato" class="m-10">
+            
+        <div class="md:flex md:justify-center md:flex-wrap">
+            <div class="flex justify-center">
+            <a  target="_blank" href="https://www.linkedin.com/in/pamela-iwabuchi/">
+                <img class="md:h-30 h-15" src="images/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.png" alt="">
+            </a>
+            </div> 
+
+            <div class="flex justify-center m-4">
+                <p>linkedin.com/in/pamela-iwabuchi/</p>
             </div>
+            
+            <div class="flex justify-center m-4">
+                <a target="_blank" href="https://github.com/pamelaiwabuchi">
+                    <img class="md:h-30 h-15" src="images/github-logo.png" alt="">
+                </a>
+            </div>
+            <div class="flex justify-center m-4">
+                <p>github.com/pamelaiwabuchi</p>
+            </div>
+            <div class="flex justify-center m-4">
+               <img class="md:h-30 h-15" src="images/gmail-logo.png" alt=""> 
+            </div>
+            
+            <div class="flex justify-center m-4">
+               <p>iwabuchipamela@gmail.com</p> 
+            </div>
+            
+            
+            
+        </div>
             </section>
         
         </main>
