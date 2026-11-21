@@ -2,8 +2,7 @@
 
 Portfólio pessoal com minha trajetória, projetos, experiências e certificados.
 
-🔗 **Acesse:** [portfolio-psi-sand-77.vercel.app](https://portfolio-psi-sand-77.vercel.app/)
-
+🔗 **Acesse:** [Vercel](https://portfolio-psi-sand-77.vercel.app/) | [GitHub Pages](https://pamelaiwabuchi.github.io/portfolio/)
 ## Sobre
 
 Sou estudante de Desenvolvimento de Software Multiplataforma na FATEC São José dos Campos, farmacêutica e bolsista de pesquisa no grupo Queimadas do INPE. Aqui você encontra:
